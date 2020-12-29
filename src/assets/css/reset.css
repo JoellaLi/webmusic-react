@@ -107,6 +107,10 @@ body, textarea, input, select, button {
   background-size: 180px 139px;
 }
 
+.sprite_others {
+  background: url(../img/sprite_others.png) no-repeat;
+}
+
 .white_r_icon {
   background: url(../img/white-r-icon@3x.png) no-repeat;
 }
@@ -124,6 +128,15 @@ body, textarea, input, select, button {
 .sprite_player {
   background: url(../img/playbar-sprite.png) no-repeat;
 }
+
+ .h3_title {
+    display: flex;
+    justify-content: space-between;
+    height: 23px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    color: rgb(51, 51, 51);
+    font-size: 12px;
+  }
 
 .lyric-class .ant-message-notice-content {
   position: fixed;

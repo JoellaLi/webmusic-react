@@ -1,5 +1,7 @@
 import React, { memo } from 'react'
 import { NavLink } from 'react-router-dom'
+
+import { BackTop } from 'antd';
 import { DiscoverWrapper, TopMenu } from './style'
 import { discoverMenu } from '@/common/local-data'
 import { renderRoutes } from 'react-router-config'
@@ -21,6 +23,9 @@ export default memo(function Discover(props) {
         </TopMenu>
       </div>
       {renderRoutes(props.route.routes)}
+      <BackTop>
+        <div className="sprite_others backtop"></div>
+      </BackTop>
     </DiscoverWrapper>
   )
 })

@@ -8,6 +8,20 @@ export const DiscoverWrapper = styled.div`
     background-color: #C20C0C;
     border-bottom: 1px solid #a40011;
   }
+  .ant-back-top {
+    bottom: 160px;
+    left: 50%;
+    margin-left: 500px;
+    .backtop {
+    width: 49px;
+    height: 44px;
+    background-position: -265px -47px;
+    text-indent: -999px;
+    &:hover {
+      background-position: -325px -47px;
+    }
+    }
+  }
 `
 
 export const TopMenu = styled.ul`
